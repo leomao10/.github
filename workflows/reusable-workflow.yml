@@ -1,0 +1,12 @@
+name: Reusable workflow example
+
+jobs:
+  example_job:
+    name: Hello world job
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a one-line script
+        run: "echo \"Hello from Leo Liang\\'s Organization\""
