@@ -1,5 +1,8 @@
 name: Reusable workflow example
 
+on:
+  workflow_call:
+
 jobs:
   example_job:
     name: Hello world job
